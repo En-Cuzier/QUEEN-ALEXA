@@ -1,7 +1,8 @@
 /* Copyright (C) 2021 TENUX-Neotro.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-NEOTROX - TEENUHX
+NEOTROX - TEENUHX 
+QUEEN ALEXA - En-Cuzier 
 */
 
 const fs = require("fs");
@@ -15,7 +16,7 @@ const awsh = require('./DEVELOPER_OPTION_DONT_EDITE_THIS_RESPECT_TO_OWNER');
 const simpleGit = require('simple-git');
 const git = simpleGit();
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
-const {Message, StringSession, Image, Video} = require('./Amazone/');
+const {Message, StringSession, Image, Video} = require('./QueenAlexa/');
 const { DataTypes } = require('sequelize');
 const { getMessage } = require("./plugins/sql/greetings");
 const axios = require('axios');
