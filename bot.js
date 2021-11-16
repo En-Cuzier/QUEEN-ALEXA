@@ -650,7 +650,7 @@ ${chalk.blue.italic('💻 Connecting to WhatsApp...')}`);
                                     , MessageType.text, {detectLinks: false});
 
                                 if (error.message.includes('URL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚜ 🙇දෝශ විශ්ලේෂනය [👩‍🦰Queen-Amazone] ⚜*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚜ 🙇දෝශ විශ්ලේෂනය [ ' + awsh.DEVELOPER_TAG +' ] --*' +  
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _Only Absolutely URLs Supported_' +
                                         '\n*🤖හේතුව:* _LOG අංකය තුළ මාධ්‍ය මෙවලම් (nmedia, sticker..) භාවිතය._' +
@@ -659,7 +659,7 @@ ${chalk.blue.italic('💻 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('SSL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ ' + awsh.DEVELOPER_TAG +' ] --*' +  
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _SQL Database Error_' +
                                         '\n*🤖හේතුව:* _Database\'දෝශයකි._ ' +
@@ -668,7 +668,7 @@ ${chalk.blue.italic('💻 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('split')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ ' + awsh.DEVELOPER_TAG +' ] --*' +  
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය.!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _Split of Undefined_' +
                                         '\n*🤖හේතුව:* _කණ්ඩායම් admin භාවිතා කළ හැකි විධානයන් සමහර විට split ක්‍රියාවලිය නොදකි._ ' +
@@ -677,7 +677,7 @@ ${chalk.blue.italic('💻 Connecting to WhatsApp...')}`);
                                     );                               
                                 }
                                 else if (error.message.includes('Ookla')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ ' + awsh.DEVELOPER_TAG +' ] --*' +  
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _Ookla Server Connection_' +
                                         '\n*🤖හේතුව:* _සේවාදායකයට වේගවත්ම දත්ත සම්ප්‍රේෂණය කළ නොහැක._' +
@@ -686,7 +686,7 @@ ${chalk.blue.italic('💻 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('params')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ ' + awsh.DEVELOPER_TAG +' ] --*' +  
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _Requested Audio Params_' +
                                         '\n*🤖හේතුව:* _හෝඩියේ පිටත TTS විධානය භාවිතා කිරීම._' +
@@ -695,7 +695,7 @@ ${chalk.blue.italic('💻 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('unlink')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ ' + awsh.DEVELOPER_TAG +' ] --*' +  
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _No Such File or Directory_' +
                                         '\n*🤖හේතුව:* _Pluginයේ වැරදි කේතීකරණය._' +
@@ -704,7 +704,7 @@ ${chalk.blue.italic('💻 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('404')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ ' + awsh.DEVELOPER_TAG +' ] --*' +  
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _Error 404 HTTPS_' +
                                         '\n*🤖හේතුව:* _Heroku plugins යටතේ ඇති විධානයන් භාවිතා කිරීම හේතුවෙන් සේවාදායකයා සමඟ සන්නිවේදනය කිරීමට නොහැකි වීම._' +
@@ -713,7 +713,7 @@ ${chalk.blue.italic('💻 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('reply.delete')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ ' + awsh.DEVELOPER_TAG +' ] --*' +  
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _Reply Delete Function_' +
                                         '\n*🤖හේතුව:* _IMG හෝ Wiki විධානයන් භාවිතා කිරීම. (Official වට්ස්ඇප් භාවිතය.)_' +
@@ -722,7 +722,7 @@ ${chalk.blue.italic('💻 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('load.delete')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ ' + awsh.DEVELOPER_TAG +' ] --*' +  
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _Reply Delete Function_' +
                                         '\n*🤖හේතුව:* _IMG හෝ Wiki විධානයන් භාවිතා කිරීම. (Official වට්ස්ඇප් භාවිතය.)_' +
@@ -731,7 +731,7 @@ ${chalk.blue.italic('💻 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('400')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ ' + awsh.DEVELOPER_TAG +' ] --*' +  
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _Bailyes Action Error_ ' +
                                         '\n*🤖හේතුව:* _නිශ්චිත හේතුව නොදනී. විකල්ප එකකට වඩා මෙම දෝෂය ඇති වීමට හේතු විය හැක._' +
@@ -740,7 +740,7 @@ ${chalk.blue.italic('💻 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('decode')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ ' + awsh.DEVELOPER_TAG +' ] --*' +  
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _Cannot Decode Text or Media_' +
                                         '\n*🤖හේතුව:* _වැරදි ලෙස භාවිතා කිරීම._' +
@@ -749,7 +749,7 @@ ${chalk.blue.italic('💻 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('unescaped')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ ' + awsh.DEVELOPER_TAG +' ] --*' +  
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _Word Character Usage_' +
                                         '\n*🤖හේතුව:* _English හෝඩියේ පිටත TTP, ATTP වැනි විධානයන් භාවිතා කිරීම._' +
@@ -758,7 +758,7 @@ ${chalk.blue.italic('💻 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('conversation')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ ' + awsh.DEVELOPER_TAG +' ] --*' +  
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _Deleting Plugin_' +
                                         '\n*🤖හේතුව:* ප්ලගීනයෙ නම වැරදියි.._' +
